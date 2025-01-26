@@ -36,7 +36,7 @@ export const sendPasswordSetupEmail = async (email: string, token: string): Prom
   const emailContent = {
     subject: 'Set Your Password',
     htmlContent: `
-      <p>Welcome to our church management system!</p>
+      <p>Welcome to the EMLR system!</p>
       <p>Please set your password by clicking the link below:</p>
       <a href="${setupLink}">Set Password</a>
       <p>If you did not request this, please ignore this email.</p>
