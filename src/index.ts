@@ -5,8 +5,6 @@ import router from './routes';
 
 dotenv.config();
 
-console.log('Mailchimp API Key:', process.env.MAILCHIMP_API_KEY);
-
 
 const app = express();
 const PORT = process.env.PORT || 5000;
